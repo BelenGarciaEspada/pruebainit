@@ -1,0 +1,85 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h1 {
+    color: rgb(27, 27, 148);
+    text-align: center;
+    shape-rendering: #ffff00;
+}
+
+fieldset {
+    background-color: #05c7e0;
+}
+
+legend {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+input {
+    background-color: #ffff00;
+}
+
+#dia {
+    background-color: #ffffff;
+}
+
+.input-gris {
+    background-color: rgb(218, 206, 206);
+}
+
+.input-rosa {
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+.modalvaloracion, .modalcuenta, .modaldia {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.541);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal2 {
+    background-color: #ffffff;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-modal {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(230, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ocultar-valoracion,
+.ocultar-cuenta,
+.ocultar-dia {
+    visibility: hidden;
+}
